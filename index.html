@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="stile.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        let currentPage = window.location.pathname.split("/").pop();
+        document.querySelectorAll(".navbar-nav a").forEach(link => {
+            if (link.getAttribute("href") === currentPage) {
+                link.parentElement.classList.add("active");
+            }
+        });
+    });
+</script>
 <body>
     <!-- Your content goes here -->
     <div class="container-fluid min-vh-100 d-flex flex-column">
