@@ -25,3 +25,11 @@ p {
 .youtube-player {
     margin-top: 50px; /* Aggiunge un margine superiore di 20px */
 }
+
+.shift-right {
+    margin-left: 200px; /* Puoi modificare il valore per spostare il paragrafo più o meno a destra */
+}
+
+.align-left {
+    text-align: left;
+}
