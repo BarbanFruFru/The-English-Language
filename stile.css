@@ -7,6 +7,11 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-size: 16px; /* Cambia la grandezza del testo degli h1 a 32px */
+    text-align: left;
+}
+
 p {
     font-size: 20px; /* Cambia la grandezza del testo dei paragrafi a 14px */
     text-align: center;
