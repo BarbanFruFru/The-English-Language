@@ -38,3 +38,8 @@ p {
 .align-left {
     text-align: left;
 }
+
+.text-navbar {
+    font-size: 15px;
+    text-align: left;
+}
