@@ -49,7 +49,7 @@ navbar {
     text-align: left;
 }
 
-navbar a {
+nav a {
     margin: 10px 0; /* Spazio verticale tra i link */
     text-align: center; /* Centra il testo */
     text-decoration: none;
