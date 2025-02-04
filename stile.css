@@ -17,6 +17,10 @@ p {
     text-align: center;
 }
 
+navbar {
+    justify-content: auto;
+}
+
 .small-image {
     width: 200px; /* Rimpicciolisce l'immagine a 200px di larghezza */
     display: block; /* Assicura che l'immagine sia un blocco */
