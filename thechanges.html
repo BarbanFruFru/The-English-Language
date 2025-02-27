@@ -43,12 +43,20 @@
         }
         p {
             font-size: 25px;
+            text-align: left;
+            margin-left: 20px;
         }
         h1 {
             margin-bottom: 20px;
         }
         h2 {
-            font-size: 15px;
+            font-size: 25px;
+            text-align: left;
+            margin-left: 20px;
+            color: black;
+        }
+        h3 {
+            font-size: 45px;
             text-align: left;
             margin-left: 20px;
             color: black;
@@ -82,18 +90,25 @@
             padding-right: 0;
         }
         .immagine-custom {
-            width: 50%;
+            width: 80%;
             max-width: 300px;
+            margin-left: 70px;
         }
         .bg-custom {
     background-color: #914c1c;
-}
+        }
+        .custom-row2 {
+            margin-top: 40px;
+        }
+        .custom-iframe {
+            margin-right: 80px;
+        }
     </style>
 </head>
 <body class="d-flex flex-column min-vh-100">
     <div class="container-fluid flex-grow-1 d-flex flex-column">
         <nav class="navbar navbar-dark bg-black w-100">
-            <h1 class="color white">The English Language</h1>
+            <h1 class="color white">The Changes</h1>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -108,14 +123,52 @@
         </nav>
     </div>
     <div class="container-fluid flex-grow-1 d-flex flex-column">
-        <div class="row">
-            <div class="col-1">
+        <div class="row  custom-row2">
+            <div class="col-2">
             </div>
-            <div class="col-12 text-center">
-                <img src="images/jjshake.jpeg" alt="jjshake" class="immagine-custom">
-                <p>Jordan Shakespeare</p>
+            <div class="col-5 text-center">
+                <b><h3>Middle English (1100-1500 AD)</h3></b>
+                <p> The Norman invasion of 1066 introduced many French words, especially in government, law, and culture.</p>
+                <p> Grammar became simpler, losing many inflections.</p>
+                <p> Significant dialectal variations, but Geoffrey Chaucer (The Canterbury Tales) helped standardize the language</p>
             </div>
-            <div class="col-1">
+            <div class="col-4">
+                <img src="images/pic2.jpeg" alt="jjshake" class="immagine-custom">
+            </div>
+        </div>
+        <div class="row  custom-row2">
+            <div class="col-2">
+            </div>
+            <div class="col-5 text-center">
+                <b><h3>Early Modern English (1500-1700 AD)</h3></b>
+                <p> The Great Vowel Shift changed the pronunciation of many words.</p>
+                <p> Shakespeare and the King James Bible (1611) enriched the vocabulary and solidified the language.</p>
+            </div>
+            <div class="col-2">
+            </div>
+        </div>
+        <div class="row  custom-row2">
+            <div class="col-2">
+            </div>
+            <div class="col-5 text-center">
+                <b><h3>Modern English (1700-1900 AD)</h3></b>
+                <p> British colonial expansion introduced words from languages worldwide.</p>
+                <p> The Industrial Revolution brought new technical and scientific terms.</p>
+            </div>
+            <div class="col-4">
+                <img src="images/pic1.jpeg" alt="jjshake" class="immagine-custom">
+            </div>
+        </div>
+        <div class="row  custom-row2">
+            <div class="col-2">
+            </div>
+            <div class="col-5 text-center">
+                <b><h3>Contemporary English (1900-Present)</h3></b>
+                <p> Globalization and technology introduced neologisms and abbreviations (email, smartphone, AI).</p>
+                <p> English became the global language of business, science, and the internet.</p>
+                <p> Influences from media, pop culture, and social networks continue to reshape vocabulary.</p>
+            </div>
+            <div class="col-2">
             </div>
         </div>
     </div>
