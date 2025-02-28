@@ -3,49 +3,207 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The UK Language</title>
-    <link rel="stylesheet" href="stile.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>The English Language</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow-x: hidden;
+        }
+        .logo {
+            max-width: 60%;
+            height: auto;
+        }
+        .logo-footer {
+            max-width: 60%;
+            height: auto;
+            padding: 0;
+            margin-right: 40px;
+        }
+        .custom-row {
+            background-color: black;
+            color: white;
+            padding: 20px 0;
+        }
+        .nav-link {
+            color: black !important;
+            margin-left: 20px;
+        }
+        .footer-row {
+            background-color: #b36630;
+            color: white;
+            padding: 5px 0;
+            text-align: center;
+        }
+        .flex-grow-1 {
+            flex-grow: 1;
+        }
+        p {
+            font-size: 25px;
+            text-align: left;
+            margin-left: 20px;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 25px;
+            text-align: left;
+            margin-left: 20px;
+            color: black;
+        }
+        h3 {
+            font-size: 45px;
+            text-align: left;
+            margin-left: 20px;
+            color: black;
+        }
+        .scroll-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: none;
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+            z-index: 1000;
+        }
+        nav {
+            background-color: #b36630;
+            padding: 0px;
+            width: 100%; 
+            margin: 0;
+        }
+        .navbar-nav {
+            margin-left: auto; 
+            padding: 0;
+            color: black;
+        }
+        .container-fluid {
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .immagine-custom {
+            width: 80%;
+            max-width: 300px;
+            margin-left: 70px;
+        }
+        .bg-custom {
+    background-color: #914c1c;
+        }
+        .custom-row2 {
+            margin-top: 40px;
+        }
+        .custom-iframe {
+            margin-right: 80px;
+        }
+    </style>
 </head>
-<body>
-    <!-- Your content goes here -->
-    <div class="container-fluid min-vh-100 d-flex flex-column">
-        <div class="row">
-            <div class="col-12">
-                <h1>The Present</h1>
-                <p>The english language in the present.</p>
+<body class="d-flex flex-column min-vh-100">
+    <div class="container-fluid flex-grow-1 d-flex flex-column">
+        <nav class="navbar navbar-dark bg-black w-100">
+            <h1 class="color white">The Changes</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav bg-custom">
+                    <li class="nav-item"><a class="nav-link" href="origins.html">The Origins</a></li>
+                    <li class="nav-item"><a class="nav-link" href="thechanges.html">The Changes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="thepresent.html">The Present</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                </ul>
             </div>
-        </div>
-        <div class="row">
+        </nav>
+    </div>
+    <div class="container-fluid flex-grow-1 d-flex flex-column">
+        <div class="row  custom-row2">
             <div class="col-2">
-                      <div class="col-2 d-flex flex-column justify-content-center align-items-center vh-100 ml-3 bg-dark text-white rounded shadow p-3">
-    <nav class="d-flex flex-column text-center w-100">
-        <a href="index.html" class="nav-link text-white py-2">🏠 Home</a>
-        <a href="TheOrigins.html" class="nav-link text-white py-2">📜 The Origins</a>
-        <a href="TheChanges.html" class="nav-link text-white py-2">🔄 The Changes</a>
-        <a href="ThePresent.html" class="nav-link text-white py-2">🌍 The Present</a>
-    </nav>
-</div>
+            </div>
+            <div class="col-5 text-center">
+                <b><h3>Contemporary English</h3></b>
+                <p> Contemporary English is constantly evolving due to globalization, technology, and cultural shifts. Today, English is the most widely spoken language in the world, used as a first, second, or foreign language by over a billion people.</p>
+            </div>
+            <div class="col-2">
             </div>
         </div>
-            <div class="col-10">
+        <div class="row  custom-row2">
+            <div class="col-2">
+            </div>
+            <div class="col-5 text-center">
+                <b><h3>The influence of Internet</h3></b>
+                <p> The rise of the internet, social media has changed how we use English:</p>
+                <p> -Shortened words & acronyms (BRB, LOL, DM, FR )</p>
+                <p> -Emojis & memes are now part of communication, sometimes replacing words</p>
+            </div>
+            <div class="col-4">
+                <img src="images/WhatsApp Image 2025-02-28 at 09.21.49.jpeg" alt="lebron" class="immagine-custom">
+                <h4>Lebron is considered the G.O.A.T. of basketball (Greatest Of All Times)</h4>
             </div>
         </div>
-        <div class="row">
-            <div class="col-4">
-                
+        <div class="row  custom-row2">
+            <div class="col-2">
             </div>
-            <div class="col-4 d-flex justify-content-center">
-                inserisci testo
+            <div class="col-5 text-center">
+                <b><h3>Less Formal</h3></b>
+                <p> Contemporary English is becoming less formal, especially in digital spaces:</p>
+                <p> -People now say "gonna" instead of "going to" even in writing;</p>
+                <p> -New slang spreads fast through social media ( cap,Goat, Bet, Drip,Flex,Lowkey, L/W, Yall);</p>
             </div>
-            <div class="col-4">
-                
+            <div class="col-2">
+            </div>
+        </div>
+        <div class="row  custom-row2">
+            <div class="col-2">
+            </div>
+            <div class="col-5 text-center">
+                <b><h3>The Expansion of the Language</h3></b>
+                <p> The Rise of English as a Second Language</p>
+                <p> -More people speak English as a second language than as a first language</p>
+                <p> -English is the global business, science, and internet language</p>
+            </div>
+            <div class="col-2">
             </div>
         </div>
     </div>
 
-    
+    <div class="container-fluid  d-flex flex-column">
+        <div class="row footer-row">
+            <div class="col-11 d-flex align-items-center justify-content-between">
+                <div>
+                    <h2></h2>
+                    <h2>Matteo Romano</h2>
+                    <h2>Matteo Santiago Caiza Martinez</h2>
+                    <h2>Jordan Shakespear</h2>
+                </div>
+            </div>    
+        </div>
+    </div>
+    <button class="scroll-to-top" onclick="scrollToTop()">&#8679;</button>
 
-    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <script>
+        window.onscroll = function() {
+            var scrollToTopButton = document.querySelector('.scroll-to-top');
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                scrollToTopButton.style.display = 'block';
+            } else {
+                scrollToTopButton.style.display = 'none';
+            }
+        };
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
 </body>
 </html>
